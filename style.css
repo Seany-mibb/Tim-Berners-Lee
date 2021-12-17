@@ -23,15 +23,16 @@ body
 
 .menu
 {
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: green;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
     z-index: 11;
     cursor: cell;
 }
 
-li
+.li
 {
     float: left;
     padding-top: 5px;
@@ -84,10 +85,32 @@ h2
 
 .links
 {
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-size: 20px;
+    font-family: "courier new"; 
+}
+
+.links:hover
+{
+    font-size: 25px;
+    font-family: "fantasy";
+    text-decoration: underline;
+}
+
+#writings a
+{
+    text-decoration: underline !important;
+    color:green !important;
+}
+
+#contact
+{
+    background: lightgray;
+}
+
+.contact_1 h3
+{
+    display: inline;
 }
